@@ -1,0 +1,12 @@
+<div class="difficulty">
+
+    <span ng-if="getDifficulty(song.difficulty) == 'Easy'"
+          class="badge progress-bar-success">Easy</span>
+
+    <span ng-if="getDifficulty(song.difficulty) == 'Medium'"
+          class="badge progress-bar-warning">Medium</span>
+
+    <span ng-if="getDifficulty(song.difficulty) == 'Hard'"
+          class="badge progress-bar-danger">Hard</span>
+
+</div>

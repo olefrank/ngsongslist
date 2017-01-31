@@ -1,0 +1,35 @@
+<div class="main">
+
+    <header class="page__header">
+        <div class="text-center">
+            <h1 class="page__header--title">{{page_title}}</h1>
+        </div>
+    </header>
+
+    <navbar></navbar>
+
+    <div class="songs-list">
+        <div class="row">
+            <ul ng-if="!groupby_artist"
+                class="col-xs-12 col-sm-6"
+                ng-repeat="song in songs | orderBy: '-rating' | filter: difficulty | filter: searchterm">
+                <li>
+                    <song></song>
+                </li>
+            </ul>
+
+            <ul ng-if="groupby_artist"
+                class="col-xs-12 col-sm-6"
+                ng-repeat="(k, v) in songs | groupBy: 'artist'">
+
+                <h3 class="text-center progress-bar-info groupby-artist">{{k}}</h3>
+
+                <li ng-repeat="song in v | orderBy: '-rating' | filter: difficulty | filter: searchterm">
+                    <song></song>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+

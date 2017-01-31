@@ -1,0 +1,52 @@
+{
+"songs": [
+    {
+        "id": 1,
+        "artist": "The Yousicians",
+        "title": "Lycanthropic Metamorphosis",
+        "difficulty": 14.6,
+        "released": "2016-10-26",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "artist": "The Yousicians",
+        "title": "A New Kennel",
+        "difficulty": 9.1,
+        "released": "2010-02-03",
+        "rating": 3.8
+    },
+    {
+        "id": 3,
+        "artist": "Mr Fastfinger",
+        "title": "Awaki-Waki",
+        "difficulty": 15,
+        "released": "2012-05-11",
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "artist": "The Yousicians",
+        "title": "You've Got The Power",
+        "difficulty": 13.22,
+        "released": "2014-12-20",
+        "rating": 4.35
+    },
+    {
+        "id": 5,
+        "artist": "The Yousicians",
+        "title": "Wishing In The Night",
+        "difficulty": 10.98,
+        "released": "2016-01-01",
+        "rating": 4.72
+    },
+    {
+        "id": 6,
+        "artist": "The Yousicians",
+        "title": "Opa Opa Ta Bouzoukia",
+        "difficulty": 14.66,
+        "released": "2013-04-27",
+        "rating": 5
+    }
+]
+}

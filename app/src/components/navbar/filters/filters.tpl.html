@@ -1,0 +1,17 @@
+<div class="filters">
+    <p>Filters</p>
+    <label for="filter-easy" class="badge" ng-class="{'progress-bar-success': !filter_easy}">
+        Easy
+        <input type="checkbox" id="filter-easy" ng-model="filter_easy">
+    </label>
+
+    <label for="filter-medium" class="badge" ng-class="{'progress-bar-warning': !filter_medium}">
+        Medium
+        <input type="checkbox" id="filter-medium" ng-model="filter_medium">
+    </label>
+
+    <label for="filter-hard" class="badge" ng-class="{'progress-bar-danger': !filter_hard}">
+        Hard
+        <input type="checkbox" id="filter-hard" ng-model="filter_hard">
+    </label>
+</div>

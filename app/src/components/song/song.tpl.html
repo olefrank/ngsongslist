@@ -1,0 +1,40 @@
+<div class="song">
+
+    <metadata></metadata>
+
+    <h3 class="song__title">{{song.title}}</h3>
+    <h4 class="song__artist"><em>{{song.artist}}</em></h4>
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div class="pull-left">
+                <difficulty></difficulty>
+            </div>
+
+            <div class="pull-left">
+                <rating></rating>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div class="pull-left">
+                <p class="song__released"><em>Released {{song.released | date: format: 'longDate' }}</em></p>
+            </div>
+
+            <div class="pull-right">
+                <p class="song__clicked" ng-if="song.clicked">
+                    <i class="glyphicon glyphicon-ok"> </i> Clicked!
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="song__divider">
+
+</div>

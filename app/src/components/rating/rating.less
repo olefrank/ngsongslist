@@ -1,0 +1,25 @@
+.rating {
+
+    unicode-bidi: bidi-override;
+    font-size: 14px;
+    height: 10px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+
+    &, &__bottom, &__top {
+        padding: 0;
+    }
+
+    &__top {
+        color: @rating;
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    &__bottom {
+        color: @rating-bg;
+    }
+
+}
